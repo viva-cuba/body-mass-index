@@ -1,4 +1,4 @@
-# pip install time, keyboard, os, 
+
 
 import os
 import playsound
@@ -7,7 +7,7 @@ from gtts import gTTS
 import random
 
 
-# принимает голосовыю команду
+# принимает голосовую команду
 def listen_command() -> None:
     """принимает голосовую команду"""
 # пример написания и обращение к модулю
