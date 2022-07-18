@@ -40,6 +40,6 @@ def main():
 
 if __name__ == '__main__':
     sm('как тебя зовут:')
-    name = lk()
+    name = lk().split()[-1]
     sm('привет ' + name + ' давай посчитаем твой индекс?')  
     main() 
